@@ -1,0 +1,15 @@
+# SenseTime API Config
+
+[API]
+key = ""
+secret = ""
+
+[API.URL]
+# 验证身份证上的姓名与身份证号是否匹配
+validity_idnumber_verification = "https://v2-auth-api.visioncloudapi.com/validity/idnumber_verification"
+# 用姓名、身份证号到第三方核查后台查询预留照片，然后与存在云端的活体数据进行比对， 来判断是否为同一个人
+liveness_idnumber_verification = 'https://v2-auth-api.visioncloudapi.com/identity/liveness_idnumber_verification'
+# 用姓名、身份证号到第三方核查后台查询预留照片，然后与存在云端的的人脸照片进行比对，来判断是否为同一个人
+identity_idnumber_verification = 'https://v2-auth-api.visioncloudapi.com/identity/idnumber_verification'
+# 将某url上的图片上传到云端
+resource_image_url = 'https://v2-auth-api.visioncloudapi.com/resource/image/url'

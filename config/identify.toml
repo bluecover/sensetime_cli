@@ -1,0 +1,5 @@
+# Identify server config
+
+[server]
+addr = 'localhost'
+port = 8089
